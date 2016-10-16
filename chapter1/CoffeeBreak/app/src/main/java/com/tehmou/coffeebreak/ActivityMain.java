@@ -21,6 +21,9 @@ public class ActivityMain extends AppCompatActivity {
         // Insert Rx code here
     }
 
+   /*
+    * Dummy search that just set the search term as result.
+    */
     private void search(CharSequence searchTerm) {
         this.searchResults.setText(searchTerm);
     }
